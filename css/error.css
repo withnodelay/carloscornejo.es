@@ -1,0 +1,17 @@
+html {
+	font-family: Georgia, serif;
+	color: #8A7575;
+	font-style: italic;
+	background: url('../images/pattern.png') repeat scroll 0 0 transparent;
+}
+.error404 {
+	margin: 0 auto 0;
+	background: url("../images/404.png") no-repeat transparent;
+	height: 365px;
+	width: 362px;;
+}
+.textError {
+	text-align: center;
+	width: 50%;;
+	margin: -30px auto 0;
+}

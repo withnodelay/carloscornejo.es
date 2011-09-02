@@ -1,0 +1,118 @@
+.header {
+	position: relative;
+	border: 1px solid orange;
+	background-color: white;
+	border-radius: 5px;
+	padding: 10px;
+	height: 70px;
+	-moz-box-shadow: 5px 5px 5px #ccc;
+	-webkit-box-shadow: 5px 5px 5px #ccc;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+	background: url('../images/big-fade3.png') repeat-x scroll 0 0 transparent;
+}
+.logo {
+	margin-top: 8px;
+	position: inherit;
+	z-index: 0;
+	background: url("../images/logo.png") no-repeat;
+	height: 54px;
+}
+/* to add more icons just setting the percent width of the layer */
+.headerSocial {
+	position: inherit;
+	float: right;
+	z-index: 1;
+	width: 187px;;
+	height: 40px;
+	margin-right: -8px;
+	margin-top: -56px;
+}
+.social li, .social a {
+	display: block;
+	height: 32px;
+	float: none;
+}
+.social li {
+	list-style: none;
+	float: left;
+}
+.social .twitter a {
+	background: url('../images/Twitter-32.png') no-repeat transparent;
+	float: none;
+}
+/* CSS3 transitions configs */
+.twitter, .facebook, .linkedin, .lastfm, .skype, .mendeley, .delicious, .googlePlus, .soundCloud, .mixCloud {
+	width: 32px;
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+}
+.twitter:hover, .facebook:hover, .linkedin:hover, .lastfm:hover, .skype:hover, .mendeley:hover, .delicious:hover, .googlePlus:hover, .soundCloud:hover, .mixCloud:hover {
+	-webkit-transform: rotate(360deg) scale(2);
+	-moz-transform: rotate(360deg) scale(2);
+	-o-transform: rotate(360deg) scale(2);
+}
+.social .facebook a {
+	background: url('../images/Facebook-32.png') no-repeat transparent;
+	float: none;
+}
+.facebook {
+	width: 32px;
+}
+.social .linkedin a {
+	background: url('../images/Linkedin-32.png') no-repeat transparent;
+	float: none;
+}
+.linkedin {
+	width: 32px;
+}
+.social .lastfm a {
+	background: url('../images/lastfm_32.png') no-repeat transparent;
+	float: none;
+}
+.lastfm {
+	width: 32px;
+}
+.social .skype a {
+	background: url('../images/Skype-32.png') no-repeat transparent;
+	float: none;
+}
+.skype {
+	width: 32px;
+}
+.social .mendeley a {
+	background: url('../images/mendeley.png') no-repeat transparent;
+	float: none;
+}
+.mendeley {
+	width: 32px;
+}
+.social .delicious a {
+	background: url('../images/Delicious_32.png') no-repeat transparent;
+	margin-left: -1px;
+	float: none;
+}
+.delicious {
+	width: 32px;
+}
+.social .googlePlus a {
+	background: url('../images/gplus.png') no-repeat transparent;
+	float: none;
+}
+.googlePlus {
+	width: 32px;
+}
+.social .soundCloud a {
+	background: url('../images/soundcloud-32.png') no-repeat transparent;
+	float: none;
+}
+.soundCloud {
+	width: 32px;
+}
+.social .mixCloud a {
+	background: url('../images/mixcloud.png') no-repeat transparent;
+	float: none;
+}
+.mixCloud {
+	width: 32px;
+}
